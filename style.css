@@ -96,8 +96,7 @@ article.galery-container {
 article.galery-container img{   
     width: 350px;
     height: 350px;
-    box-shadow: 3px 3px 3px black; 
-    bac 
+    box-shadow: 3px 3px 3px black;  
 }
 
 article.galery-container img:hover{
@@ -289,6 +288,10 @@ footer>aside{
 
     .direitos{
         max-width: 360px;
+    }
+
+    .socialbackground{
+        gap: 40px;
     }
 }
 

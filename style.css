@@ -97,6 +97,7 @@ article.galery-container img{
     width: 350px;
     height: 350px;
     box-shadow: 3px 3px 3px black;  
+   
 }
 
 article.galery-container img:hover{
@@ -269,6 +270,10 @@ footer>aside{
         text-decoration: none;
     }
 
+    #inicioimg{
+        margin-top: -1px;
+    }
+
  }
 
 @media (min-width: 300px) and (max-width: 600px){
@@ -294,7 +299,7 @@ footer>aside{
         gap: 40px;
     }
 
-    .telefonefooter{
+    aside.telefonefooter{
         text-decoration: none;
     }
 }

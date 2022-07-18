@@ -293,6 +293,10 @@ footer>aside{
     .socialbackground{
         gap: 40px;
     }
+
+    .telefonefooter{
+        text-decoration: none;
+    }
 }
 
 

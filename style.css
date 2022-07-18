@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Thasadith&family=Urbanist:wght@100;300&display=swap');
+
+:root{
+    --fontep: 'Urbanist', sans-serif;
+    --fontedestaque: 'Montserrat Alternates', sans-serif;
+    --fontelogo: 'Thasadith', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    max-width: 1000px;
+    margin: auto; 
+   
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15vh ;
+    background-color: black;
+    color: #fff;
+}
+
+header h1{
+    font-family: var(--fontelogo);
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+header p{
+    font-family: var(--fontep);
+    letter-spacing: 10px;  
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: #fff;
+    list-style-type: none;
+    padding: 20px;
+    font-family: var(--fontep) ;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav>ul>li>a:hover{
+    font-size: large;
+    transition: 0.2s;
+}
+
+#inicioimg{
+    width: 100%;    
+}
+
+.descrição1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:black;
+    text-align: center;
+    font-family: var(--fontep) ;
+    padding: 70px;
+    background-color: #fff;
+    margin-top: -3px;     
+}
+
+.fonteparagrafo{
+    font-family: var(--fontep);
+}
+
+article.galery-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 50px;
+}
+
+article.galery-container img{   
+    cursor: ;
+     
+    width: 350px;
+    height: 350px;
+    box-shadow: 3px 3px 3px black;  
+}
+
+
+.vermais{
+    padding: 40px;
+}
+
+.vermais>a{
+    font-family: var(--fontep);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 20px auto ;
+    background-color: gray;
+    border-radius: 5px;     
+}
+
+.vermaislink{
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 2px 2px 2px black;
+    width: 100px;
+    font-weight: bolder;
+}
+
+.vermaislink:hover{
+    padding: 20px;
+    transition: 0.2s;
+    background-color: black;
+    font-weight: bolder;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff; 
+}
+
+footer>aside{
+    margin: 0px 50px;
+}
+
+.redesociaisfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;    
+}
+
+.socialbackground{
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.redesociaisfooter img{
+    width: auto;
+    height: 25px;
+}
+
+.sobremimfooter p{
+    font-size: 0.9em;
+    font-family: var(--fontep);
+    font-weight: 300;
+    max-width: 300px;
+    text-align: justify;
+}
+
+.fotografiafooter{
+    margin-top: -10px;
+}
+
+.maisfooter>a{
+    font-size: small;
+    color: #fff;  
+}
+
+.sobremimfooter h2{
+    font-family: var(--fontep);
+    padding: 10px 0px;
+    font-size: 1em;
+}
+
+.titulologo{
+    font-family: var(--fontelogo);
+}
+
+.h2footer{
+    padding: 10px 0px;
+    font-size: 1em;
+    font-family: var(--fontep);
+    font-weight: 100;
+}
+
+.sobremimfooter>h2{
+    font-family: var(--fontelogo);
+    font-weight: 100;
+}
+
+.direitos{
+    width: 100%;
+    font-family: var(--fontep);
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    border-top: 0.3px groove rgba(255, 255, 255, 0.212); 
+    font-size: small;    
+}
+
+.direitos>p a{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.direitos>p a:hover{
+    color: red;
+}
+
+
+
+@media (min-width: 300px) and (max-width: 910px){
+   
+    .redesociaisbody{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        gap: 50px;
+        margin: auto;
+    }
+
+    .sobremimfooter{
+        text-align: center;
+    }
+
+    .sobremimfooter>p{
+        text-align: center;
+    }
+
+    .socialbackground{
+        flex-direction: row;
+    }
+
+ }
+
+@media (min-width: 300px) and (max-width: 600px){
+    nav>ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
+

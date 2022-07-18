@@ -96,7 +96,15 @@ article.galery-container {
 article.galery-container img{   
     width: 350px;
     height: 350px;
-    box-shadow: 3px 3px 3px black;  
+    box-shadow: 3px 3px 3px black; 
+    bac 
+}
+
+article.galery-container img:hover{
+    width: 380px;
+    height: 380px;
+    transition: 0.3s;
+
 }
 
 
@@ -255,6 +263,11 @@ footer>aside{
 
     .socialbackground{
         flex-direction: row;
+        gap: 40px;
+    }
+
+    .telefonefooter{
+        text-decoration: none;
     }
 
  }
@@ -272,6 +285,10 @@ footer>aside{
 
     #inicioimg{
         margin-top: -1px;
+    }
+
+    .direitos{
+        max-width: 360px;
     }
 }
 

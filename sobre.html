@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        article{
+            max-width: 1000px;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            justify-content: space-evenly;
+            align-items: center;
+            
+        }
+
+        aside.fotoperfil{
+        max-width: 300px;
+        padding: 50px 0px;
+   
+        }
+
+        .fotoperfil>img{
+        width: 100%;
+        }
+
+        .textosobremim{
+            max-width: 500px;
+
+        }
+
+        .fonteparagrafo p{
+            max-width: 400px;
+            text-indent: 20px;
+            text-align: justify;
+            font-weight: bold;
+        }
+
+        @media (min-width: 300px) and (max-width: 910px){
+            article{
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                margin-bottom: 50px;
+            }
+        }
+      
+
+    </style>
+
+
+</head>
+<body>
+    <main>
+
+        <header>
+            <h1>LOREM IPSUM</h1>
+            <p>FOTOGRAFIAS</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="Inicio">Início</a></li>
+                <li><a href="">Sobre Nós</a></li>
+                <li><a href="">Portfólio</a></li>
+                <li><a href="">Serviços</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </nav>
+
+
+    </main>
+
+    <article>
+        <aside class="fotoperfil">
+            <img src="img/foto-sobre-mim.jpg" alt="">
+        </aside>
+
+        <aside class="fonteparagrafo">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis sapiente eaque ullam fuga id minima, nostrum nulla odit at molestiae voluptatum magni quidem unde consequuntur tempora vero deleniti? Facere, est! </p>
+            <br>
+            <p class="fonteparagrafo"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae blanditiis porro, temporibus, quas rerum nulla perferendis, excepturi voluptas vero in corrupti earum! Pariatur modi perspiciatis maxime deserunt earum eligendi voluptatum. 
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores alias quis fugit. Est quae sed repellat, reiciendis incidunt velit, fuga sapiente vero repellendus corporis, accusamus perferendis dolores rem animi eos.</p>
+            <br>
+            <p class="fonteparagrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi itaque eius quidem, iure libero consequuntur repellat laudantium aliquam molestiae animi perferendis adipisci pariatur vel unde sunt? Animi facilis veritatis iusto. </p>
+
+        </aside>
+
+
+
+    </article>
+
+    <footer>
+        <aside class="sobremimfooter">
+            <h2 class="h2logofooter">LOREM IPSUM</h3>
+            <p class="fotografiafooter">Fotografia</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, corrupti incidunt! Magnam deleniti itaque harum cumque, in commodi minima veniam ut odit, eum doloribus, eligendi inventore at voluptates esse quos... </p>
+            <br>
+            <p class="maisfooter"><a href="">MAIS</a></p>
+        </aside>
+
+        <aside class="sobremimfooter">
+            <h2 class="h2footer">CONTATE-NOS</h2>
+            <p>Av. Lorem ipsum dolor, 365.</p>
+            <p>5770-241 Nárnia</p>
+            <p>+352 823 382 401</p>
+            <p>loremipsum@fotografia.com</p>
+            <p>CONTATE-NOS</p>
+        </aside>
+
+        <aside class="redesociaisfooter">
+            <h2 class="h2footer">NOSSAS REDES</h2>
+            <div class="socialbackground">
+            <a class="socialfooter" href=""><img src="img/instagram.png" alt=""></a>
+            <a class="socialfooter" href=""><img src="img/twitter.png" alt=""></a>
+            <a class="socialfooter" href=""><img src="img/facebook.png" alt=""></a>
+            </div> 
+        </aside>
+        
+        <aside class="direitos">
+            <p>2022 - Site desenvolvido por <a target="_blank"  href="https://www.instagram.com/lenderisfree/?hl=en">Alex Almeida</a></p>
+        </aside>
+
+    </footer>
+    
+</body>
+</html>

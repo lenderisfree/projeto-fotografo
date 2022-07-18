@@ -38,6 +38,10 @@ header p{
     letter-spacing: 10px;  
 }
 
+.home i{
+    color: #fff;
+}
+
 nav ul{
     display: flex;
     flex-direction: row;
@@ -90,8 +94,6 @@ article.galery-container {
 }
 
 article.galery-container img{   
-    cursor: ;
-     
     width: 350px;
     height: 350px;
     box-shadow: 3px 3px 3px black;  
@@ -221,6 +223,8 @@ footer>aside{
 .direitos>p a:hover{
     color: red;
 }
+
+
 
 
 

@@ -5,7 +5,7 @@
 
 .gallery__container{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto;
     justify-content: space-between;
     grid-row-gap: 1em;
     box-sizing: border-box;

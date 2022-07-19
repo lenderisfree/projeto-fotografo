@@ -5,9 +5,10 @@
 
 .gallery__container{
     display: grid;
-    grid-template-columns: repeat(4, auto) ;
+    grid-template-columns: auto auto auto auto;
     justify-content: space-between;
     grid-row-gap: 1em;
+    box-sizing: border-box;
     margin: 30px auto ;
     max-width: 1000px;
     

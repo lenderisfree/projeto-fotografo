@@ -174,11 +174,12 @@ footer>aside{
 }
 
 .socialbackground{
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.509);
     padding: 15px;
     display: flex;
     flex-direction: column;
     gap: 5px;
+    border-radius: 10px;
 }
 
 .redesociaisfooter img{
@@ -191,7 +192,7 @@ footer>aside{
     font-family: var(--fontep);
     font-weight: 300;
     max-width: 300px;
-    text-align: justify;
+    
 }
 
 .fotografiafooter{

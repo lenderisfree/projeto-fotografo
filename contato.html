@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        .conteudo__contato{
+            max-width: 1000px;
+            margin: auto;
+            font-family: 'Urbanist', sans-serif;
+            color: rgba(128, 128, 128, 0.651);
+        }
+        .contato__mensagem{
+            display: grid;
+            gap: 20px;
+            padding: 100px;
+            
+        }
+
+        .box__nome{
+            border: 1px solid rgba(0, 0, 0, 0.192);
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .box__email{
+            border: 1px solid rgba(0, 0, 0, 0.192);
+            padding: 5px;
+            border-radius: 5px;
+            
+        }
+
+        .box__mensagem{
+            border: 1px solid rgba(0, 0, 0, 0.192);
+            padding: 5px;
+            height: 300px;
+            border-radius: 5px;
+        }
+        
+        .conteudo__contato p{
+            margin-left: 5px;
+        }
+
+        h3{
+            text-align: center;
+            padding: 30px;
+        }
+
+        .box__enviar--mensagem{
+            color: #fff;
+            background-color: black;
+            width: 60px;
+            text-align: center;
+            padding: 5px;
+            justify-self: end;
+            box-shadow: 1px 1px 1px gray;
+            transition: 0.2s;
+            
+        }
+
+        .box__enviar--mensagem:hover{
+            font-weight: bold;
+            padding: 10px;
+            transition: 0.2s;
+            cursor: pointer;
+        }
+
+        @media (min-width: 300px) and (max-width: 1000px){
+            .contato__mensagem{
+                padding: 20px;
+            }
+            .box__enviar--mensagem{
+                padding: 5px;
+            }
+
+        }
+
+      
+    </style>
+
+</head>
+<body>
+    <main>
+
+        <header>
+            <h1>LOREM IPSUM</h1>
+            <p>FOTOGRAFIAS</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li> <a href="index.html"> <img class="home_imagem" src="img/home2.png" alt=""></a> </li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+    </main>
+
+    <article class="conteudo__contato">
+        
+        <aside class="contato__mensagem">
+            <h3>Entre em contato conosco</h3>
+            <div class="box__nome"><p>Nome completo</p></div>
+            <div class="box__email"> <p>E-mail</p></div>
+            <div class="box__mensagem"><p>Deixe sua mensagem</p></div>
+            <div class="box__enviar--mensagem"><p>Enviar</p></div>
+
+        </aside>
+
+
+    </article>
+
+    <footer>
+        <aside class="sobremimfooter">
+            <h2 class="h2logofooter">LOREM IPSUM</h3>
+            <p class="fotografiafooter">Fotografia</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, corrupti incidunt! Magnam deleniti itaque harum cumque, in commodi minima veniam ut odit, eum doloribus, eligendi inventore at voluptates esse quos... </p>
+            <p class="maisfooter"><a href="">ver mais</a></p>
+        </aside>
+
+        <aside class="sobremimfooter">
+            <h2 class="h2footer">CONTATE-NOS</h2>
+            <p>Av. Lorem ipsum dolor, 365.</p>
+            <p>5770-241 Nárnia</p>
+            <p>+352 823 382 401</p>
+            <p>loremipsum@fotografia.com</p>
+            <p>CONTATE-NOS</p>
+        </aside>
+
+        <aside class="redesociaisfooter">
+            <h2 class="h2footer">NOSSAS REDES</h2>
+            <div class="socialbackground">
+            <a class="socialfooter" href=""><img src="img/instagram.png" alt=""></a>
+            <a class="socialfooter" href=""><img src="img/twitter.png" alt=""></a>
+            <a class="socialfooter" href=""><img src="img/facebook.png" alt=""></a>
+            </div> 
+        </aside>
+        
+        <aside class="direitos">
+            <p>2022 - Site desenvolvido por <a target="_blank"  href="https://www.instagram.com/lenderisfree/?hl=en">Alex Almeida</a></p>
+        </aside>
+
+    </footer>
+
+
+    
+</body>
+</html>

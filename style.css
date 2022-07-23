@@ -64,6 +64,12 @@ nav>ul>li>a:hover{
     transition: 0.2s;
 }
 
+.home_imagem{
+    filter: invert(100%);
+    width: 20px;
+    height: 20px;
+}
+
 #inicioimg{
     width: 100%;    
 }
@@ -97,7 +103,8 @@ article.galery-container {
 article.galery-container img{   
     width: 350px;
     height: 350px;
-    box-shadow: 3px 3px 3px black;  
+    box-shadow: 3px 3px 3px black; 
+    transition: 0.3s; 
    
 }
 
@@ -174,17 +181,18 @@ footer>aside{
 }
 
 .socialbackground{
-    background-color: rgba(255, 255, 255, 0.509);
     padding: 15px;
     display: flex;
     flex-direction: column;
     gap: 5px;
-    border-radius: 10px;
+   
 }
 
 .redesociaisfooter img{
     width: auto;
     height: 25px;
+    filter: invert(100%);
+    
 }
 
 .sobremimfooter p{

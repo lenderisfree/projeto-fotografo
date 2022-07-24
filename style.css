@@ -22,15 +22,18 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 15vh ;
+    height: 30vh ;
     background-color: black;
     color: #fff;
+   
+    
 }
 
 header h1{
     font-family: var(--fontelogo);
     font-weight: 400;
     font-size: 2.5em;
+    
 }
 
 header p{
@@ -42,29 +45,30 @@ header p{
     color: #fff;
 }
 
+.bg-dark{
+    background-color: black !important;
+}
 
-
-nav ul{
+.navbar{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    background-color: black;
-    color: #fff;
-    list-style-type: none;
-    padding: 20px;
-    font-family: var(--fontep) ;
+    padding-left: 20px;
 }
 
-nav>ul>li>a{
-    text-decoration: none;
-    color: #fff;
-    transition: 0.2s;
+.navbar-expand-lg .navbar-nav{
+   margin: auto ;
 }
 
-nav>ul>li>a:hover{
-    font-size: large;
-    transition: 0.2s;
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 black !important;
 }
+
+nav a{
+    font-family: var(--fontep);
+    margin-left: 40px;
+    text-align: center;
+}
+
 
 .home_imagem:hover{
     width: 23px ;

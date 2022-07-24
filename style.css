@@ -197,7 +197,7 @@ footer>aside{
     padding: 15px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 30px;
    
 }
 
@@ -212,7 +212,8 @@ footer>aside{
     font-size: 0.9em;
     font-family: var(--fontep);
     font-weight: 300;
-    max-width: 300px;
+    max-width: 300px ;
+    margin-bottom: 0;
     
 }
 
@@ -258,9 +259,14 @@ footer>aside{
     font-size: small;    
 }
 
+.direitos p{
+    margin-bottom: 0px;
+}
+
 .direitos>p a{
     text-decoration: underline;
     color: #fff;
+    
 }
 
 .direitos>p a:hover{

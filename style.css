@@ -153,7 +153,9 @@ article.galery-container img:hover{
     padding: 15px !important;
     margin: 20px auto !important;
     background-color: gray;
-    border-radius: 5px;     
+    border-radius: 5px;    
+   
+     
 }
 
 .vermaislink{
@@ -165,10 +167,11 @@ article.galery-container img:hover{
 }
 
 .vermaislink:hover{
-    padding: 20px;
+    color: white;
     transition: 0.2s;
     background-color: black;
     font-weight: bolder;
+    
 }
 
 footer{

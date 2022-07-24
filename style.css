@@ -147,11 +147,11 @@ article.galery-container img:hover{
 
 .vermais>a{
     font-family: var(--fontep);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    margin: 20px auto ;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 15px !important;
+    margin: 20px auto !important;
     background-color: gray;
     border-radius: 5px;     
 }

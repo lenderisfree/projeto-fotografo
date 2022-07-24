@@ -49,14 +49,33 @@ header p{
     background-color: black !important;
 }
 
+div.navbar-collapse{
+    display: flex ;
+    align-content: space-between ;
+    width: 100%;
+}
+nav{
+    align-content: space-between;
+}
+a.nav-item{
+    text-align: center;
+}
 .navbar{
     display: flex;
     flex-direction: row;
-    padding-left: 20px;
+    justify-content: center;
 }
 
-.navbar-expand-lg .navbar-nav{
+.navbar-nav{
    margin: auto ;
+   align-items: center;
+
+}
+
+.nav-link{
+    display: flex !important;
+    align-content: space-between !important;
+    
 }
 
 .navbar-toggler:focus{
@@ -65,8 +84,7 @@ header p{
 
 nav a{
     font-family: var(--fontep);
-    margin-left: 40px;
-    text-align: center;
+    
 }
 
 

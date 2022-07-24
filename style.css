@@ -42,6 +42,8 @@ header p{
     color: #fff;
 }
 
+
+
 nav ul{
     display: flex;
     flex-direction: row;
@@ -64,10 +66,17 @@ nav>ul>li>a:hover{
     transition: 0.2s;
 }
 
+.home_imagem:hover{
+    width: 23px ;
+    height: 23px;
+    transition: 0.2s;
+}
+
 .home_imagem{
     filter: invert(100%);
     width: 20px;
     height: 20px;
+    transition: 0.2s;
 }
 
 #inicioimg{
@@ -302,8 +311,17 @@ footer>aside{
     nav>ul{
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        gap: 30px;
     }
+
+    .home_imagem{
+        margin-top: 20px;
+    }
+
+    .home_imagem:hover{
+
+    }
+
     .descrição1 h1, p{
         font-size: 15px;
         line-height: 2em;

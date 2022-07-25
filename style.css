@@ -49,6 +49,8 @@ header p{
     background-color: black !important;
 }
 
+
+
 div.navbar-collapse{
     display: flex ;
     align-content: space-between ;
@@ -69,6 +71,7 @@ a.nav-item{
 .navbar-nav{
    margin: auto ;
    align-items: center;
+   gap: 100px;
 
 }
 
@@ -377,10 +380,18 @@ footer>aside{
     aside.telefonefooter{
         text-decoration: none;
     }
+
+    
 }
 
+@media (max-width: 992px){
 
+    .navbar-nav{
+        gap: 20px;
+    }
 
-
-
+    .inicio__espacamento{
+        margin-top: 20px;
+    }
+}
 
